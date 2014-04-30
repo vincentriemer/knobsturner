@@ -1,0 +1,43 @@
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (max-width : 960px) {
+  #content {
+    @include vertical-align;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  svg {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen
+and (max-width : 568px) {
+  svg {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen
+and (max-width : 568px)
+and (orientation : landscape) {
+  .center {
+    margin-top: 10px;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  .center {
+    margin-top: 100px;
+  }
+  .soc li {
+    zoom: 0.9;
+  }
+}

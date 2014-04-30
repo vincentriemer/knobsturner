@@ -1,0 +1,176 @@
+@import "compass/css3";
+
+$font-color: #fff;
+$background-color: #050505;
+$logo-size: 280px;
+$logo-padding: 10%;
+
+@mixin vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body, select, input, textarea {
+  color: $font-color;
+  font-family: "proxima-nova", sans-serif;
+}
+
+html, body, main {
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: $background-color;
+}
+
+main {
+  position: relative;
+  width: 100%;
+}
+
+#background-image {
+  left: $logo-padding;
+  bottom: 0;
+  position: absolute;
+  width: auto;
+  height: 90%;
+}
+
+#content {
+  position: absolute;
+  width: $logo-size;
+  top: calc(#{$logo-padding} + 3%);
+  right: $logo-padding;
+}
+
+svg {
+  width: $logo-size;
+  height: $logo-size;
+}
+
+.st2 {
+  fill: #fff;
+}
+
+.st0{
+  fill:#4B4B4B;
+}
+  
+.st1{
+  fill:#181818;
+}
+
+// Styling for icons
+
+@font-face {
+    font-family:si;
+    src:    url(../icons/socicon.eot?#iefix) 
+                format(embedded-opentype),
+            url(../icons/socicon.woff) format(woff),
+            url(../icons/socicon.ttf) format(truetype),
+            url(../icons/socicon.svg#siregular) format(svg);
+    font-weight:400;
+    font-style:normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../icons/socicon.svg#siregular) format(svg);
+    }
+}
+
+.center {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.soc {
+  display: inline-block;
+  overflow:hidden;
+  padding:0;
+  list-style:none;
+}
+
+.soc li {
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+}
+
+.soc li a {
+  font-family:si!important;
+  font-style:normal;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+
+  -o-transition:.1s;
+  -ms-transition:.1s;
+  -moz-transition:.1s;
+  -webkit-transition:.1s;
+  transition:.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  overflow:hidden;
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  position: relative;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 38px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-right: 28px;
+  color: #ffffff;
+  background-color: #181818;
+}
+
+.soc-soundcloud:hover {
+  background-color: #fe3801;
+}
+
+.soc-facebook:hover {
+  background-color: #3e5b98;
+}
+
+.soc-twitter:hover {
+  background-color: #4da7de;
+}
+
+
+
+.soc-icon-last{
+  margin:0 !important;
+}
+
+.soc-soundcloud:before {
+  content:'n';
+}
+.soc-facebook:before {
+  content:'b';
+}
+.soc-twitter:before {
+  content:'a';
+}
