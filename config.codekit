@@ -1217,7 +1217,7 @@
 		"outputAbbreviatedPath": "\/images\/website-background-optimized.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/website-background-unoptimized.png": {
 		"fileType": 32768,
