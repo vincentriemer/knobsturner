@@ -63,36 +63,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 16, ../sass/partials/_page.scss */
+/* line 14, ../sass/partials/_page.scss */
 body, select, input, textarea {
   color: white;
   font-family: "proxima-nova", sans-serif;
 }
 
-/* line 21, ../sass/partials/_page.scss */
+/* line 19, ../sass/partials/_page.scss */
 html, body, main {
   height: 100%;
 }
 
-/* line 25, ../sass/partials/_page.scss */
+/* line 23, ../sass/partials/_page.scss */
 html {
   overflow: hidden;
 }
 
-/* line 29, ../sass/partials/_page.scss */
+/* line 27, ../sass/partials/_page.scss */
 body {
   max-width: 1280px;
   margin: 0 auto;
   background-color: #050505;
 }
 
-/* line 35, ../sass/partials/_page.scss */
+/* line 33, ../sass/partials/_page.scss */
 main {
   position: relative;
   width: 100%;
 }
 
-/* line 40, ../sass/partials/_page.scss */
+/* line 38, ../sass/partials/_page.scss */
 #background-image {
   left: 10%;
   bottom: 0;
@@ -101,7 +101,7 @@ main {
   height: 90%;
 }
 
-/* line 48, ../sass/partials/_page.scss */
+/* line 46, ../sass/partials/_page.scss */
 #content {
   position: absolute;
   width: 280px;
@@ -109,23 +109,23 @@ main {
   right: 10%;
 }
 
-/* line 55, ../sass/partials/_page.scss */
+/* line 53, ../sass/partials/_page.scss */
 svg {
   width: 280px;
   height: 280px;
 }
 
-/* line 60, ../sass/partials/_page.scss */
+/* line 58, ../sass/partials/_page.scss */
 .st2 {
   fill: #fff;
 }
 
-/* line 64, ../sass/partials/_page.scss */
+/* line 62, ../sass/partials/_page.scss */
 .st0 {
   fill: #4B4B4B;
 }
 
-/* line 68, ../sass/partials/_page.scss */
+/* line 66, ../sass/partials/_page.scss */
 .st1 {
   fill: #181818;
 }
@@ -142,13 +142,13 @@ svg {
     src: url(../icons/socicon.svg#siregular) format(svg);
   }
 }
-/* line 92, ../sass/partials/_page.scss */
+/* line 90, ../sass/partials/_page.scss */
 .center {
   margin-top: 50px;
   text-align: center;
 }
 
-/* line 97, ../sass/partials/_page.scss */
+/* line 95, ../sass/partials/_page.scss */
 .soc {
   display: inline-block;
   overflow: hidden;
@@ -156,14 +156,14 @@ svg {
   list-style: none;
 }
 
-/* line 104, ../sass/partials/_page.scss */
+/* line 102, ../sass/partials/_page.scss */
 .soc li {
   display: inline-block;
   *display: inline;
   zoom: 1;
 }
 
-/* line 110, ../sass/partials/_page.scss */
+/* line 108, ../sass/partials/_page.scss */
 .soc li a {
   font-family: si !important;
   font-style: normal;
@@ -202,37 +202,37 @@ svg {
   background-color: #181818;
 }
 
-/* line 150, ../sass/partials/_page.scss */
+/* line 148, ../sass/partials/_page.scss */
 .soc-soundcloud:hover {
   background-color: #fe3801;
 }
 
-/* line 154, ../sass/partials/_page.scss */
+/* line 152, ../sass/partials/_page.scss */
 .soc-facebook:hover {
   background-color: #3e5b98;
 }
 
-/* line 158, ../sass/partials/_page.scss */
+/* line 156, ../sass/partials/_page.scss */
 .soc-twitter:hover {
   background-color: #4da7de;
 }
 
-/* line 164, ../sass/partials/_page.scss */
+/* line 160, ../sass/partials/_page.scss */
 .soc-icon-last {
   margin: 0 !important;
 }
 
-/* line 168, ../sass/partials/_page.scss */
+/* line 164, ../sass/partials/_page.scss */
 .soc-soundcloud:before {
   content: 'n';
 }
 
-/* line 171, ../sass/partials/_page.scss */
+/* line 167, ../sass/partials/_page.scss */
 .soc-facebook:before {
   content: 'b';
 }
 
-/* line 174, ../sass/partials/_page.scss */
+/* line 170, ../sass/partials/_page.scss */
 .soc-twitter:before {
   content: 'a';
 }
